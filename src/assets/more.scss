@@ -1,0 +1,42 @@
+h3{
+    margin: 10px 0;
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    li{
+        // display: inline-block;
+        width: 100px;
+        padding-bottom: 10px;
+        text-align: center;
+        dl{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 142px;
+            }
+            p{
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
+a{
+    display: block;
+}
+.movies{
+    height: 90%;
+    overflow: hidden;
+}
+.more{
+    background: #fff;
+    position: absolute;
+    top: 35px;
+    bottom: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
